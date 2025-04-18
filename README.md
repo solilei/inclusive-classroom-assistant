@@ -12,7 +12,6 @@ Using Generative AI, Retrieval-Augmented Generation (RAG), and a fun, retro-them
 *   **Automated Quizzes:** Generates quizzes for self-assessment and engagement.
 
 ![Gradio App Screenshot](images/demo_screenshot.png)
-*Replace with a screenshot or GIF of your Gradio App*
 
 ## 🌟 Key Features
 
