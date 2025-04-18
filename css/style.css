@@ -1,0 +1,151 @@
+
+/* style.css */
+
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Universal (normal) font styles */
+body,
+.gradio-container,
+.gr-button,
+.gr-markdown,
+.gr-textbox,
+h1, h2, h3, h4, p {
+  font-family: "Arial", sans-serif !important;
+  color: #fff !important;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+  background-color: #101010 !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Accent color definition for buttons and highlights */
+.accent-bg {
+  background-color: #8e44ad !important;  /* pink/purple background */
+  font-family: 'Press Start 2P', monospace !important;  /* pixel font */
+  color: #000 !important;                 /* black text */
+  text-shadow: none;                      /* remove neon glow */
+}
+.accent-bg:hover {
+  background-color: #9c59bd !important;
+}
+
+/* Special Minecraft heading class (for header only) */
+.minecraft-heading {
+  font-family: 'Minecraft', sans-serif !important;
+  letter-spacing: 0.15em;
+  font-size: 28px;
+}
+
+/* Typewriter effect for header */
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid #fff;
+  white-space: nowrap;
+  animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+  width: fit-content;
+  font-weight: 700;
+  line-height: 1.8;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff; }
+}
+
+/* Bot logo with bounce animation */
+#bot-logo img {
+  animation: bounce 1.2s ease infinite !important;
+  border-radius: 8px;
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* Dark-themed textboxes for consistency */
+.gr-textbox, .gr-textbox textarea, .gr-textbox input {
+  background-color: #2b2b2b !important;
+  color: #fff !important;
+  border: 1px solid #555 !important;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+::placeholder {
+  color: #aaa !important;
+  opacity: 1;
+}
+
+/* Additional spacing for header and elements */
+#header {
+  margin-bottom: 16px;
+}
+.tab-content {
+  padding: 16px;
+}
+
+/* Retro-styled scoreboard for Quiz Generator */
+#quiz-scoreboard {
+  border: 2px solid #0aff0a; /* Neon green border */
+  padding: 8px;
+  margin-bottom: 8px;
+  font-family: 'Press Start 2P', monospace;
+  color: #0aff0a;
+  background-color: #000;
+  text-align: right;
+}
+
+/* Retro panel style (for prompts or feedback) with green fonts */
+.retro-panel {
+  border: 2px solid #ff66ff;
+  background-color: #111;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-family: 'Press Start 2P', monospace;
+  color: #0aff0a !important;    /* Changed to neon green */
+  text-align: center;
+  text-shadow: 0 0 4px #0aff0a, 0 0 8px #0aff0a;
+}
+
+/* Neon text glow effect for headings and other elements */
+.neon-text {
+  text-shadow: 0 0 4px #ff66ff, 0 0 8px #ff66ff;
+}
+
+/* Neon style for tab labels */
+.gradio-container .tabs button {
+  font-family: 'Press Start 2P', monospace !important;
+  color: #ff66ff !important;
+  text-shadow: 0 0 4px #ff66ff, 0 0 8px #ff66ff;
+  background-color: transparent !important;
+  border: none !important;
+}
+.gradio-container .tabs button:hover {
+  background-color: #333 !important;
+}
+.gradio-container .tabs button.selected {
+  color: #0aff0a !important;
+  text-shadow: 0 0 4px #0aff0a, 0 0 8px #0aff0a;
+}
+
+/* --- START: Added CSS to hide Audio elements --- */
+/* Hide the icon within the audio file drop zone */
+.gradio-audio .file-drop svg {
+    display: none !important;
+}
+/* Optional: Hide the "Drop Audio Here" text as well */
+/*
+.gradio-audio .file-drop span {
+    display: none !important;
+}
+*/
+/* --- END: Added CSS to hide Audio elements --- */
+

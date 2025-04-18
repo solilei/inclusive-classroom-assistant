@@ -1,0 +1,10 @@
+numpy~=1.26.4
+soundfile~=0.13.1
+gradio~=4.14.0
+protobuf~=5.29.4
+langchain~=0.3.23
+langchain-text-splitters~=0.3.8
+langchain-community~=0.3.21
+langchain-core~=0.3.51
+langchain-google-genai~=2.1.2
+python-dotenv~=1.1.0

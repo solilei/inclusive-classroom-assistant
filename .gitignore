@@ -1,0 +1,65 @@
+# --- Secrets ---
+# Ignore environment variables file containing API keys, etc.
+.env
+
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/ # Note: This is the directory, different from the .env file!
+*/venv/
+*/env/
+*/.venv/
+*/.env/
+ENV/
+
+# --- Project Specific ---
+# ChromaDB persistent storage directory
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# --- OS Generated Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
