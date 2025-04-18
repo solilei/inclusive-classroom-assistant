@@ -132,7 +132,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This project was a collaborative effort by:
 
-*   **Jun Loh** - (https://github.com/solilei)
+*   **Jun Loh** - (https://www.linkedin.com/in/jun-loh-trainer/)
 *   **Sudharshan Murugesan** - (https://www.linkedin.com/in/sudharshan-murugesan-06096410b/)
 *   **Chong Hun Yee** - (www.linkedin.com/in/chong-hun-yee-249b38205)
 *   **Fareeda** - (https://www.linkedin.com/in/fareedahamid)
